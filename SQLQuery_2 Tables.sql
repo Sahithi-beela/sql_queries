@@ -48,10 +48,10 @@ CREATE TABLE title_author (
 );
 INSERT INTO title_author (book_id, author_id)
 VALUES 
-('BU1111', 1),  -- Business Strategies by John Doe
-('MC2222', 2),  -- Mindset Psychology by Jane Smith
-('BU1111', 2),  -- Business Strategies also by Jane Smith
-('MC2222', 1);  -- Mindset Psychology also by John Doe
+('BU1111', 1),  
+('MC2222', 2),  
+('BU1111', 2),  
+('MC2222', 1);  
 
 CREATE TABLE product (
     product_id INT PRIMARY KEY IDENTITY(1,1),
